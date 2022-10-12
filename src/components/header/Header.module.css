@@ -1,19 +1,8 @@
-:root {
-  --purpleDark: #2f2e41;
-  --white: #ffffff;
-}
-
 .header {
   height: 250px;
   width: 100%;
   background-color: var(--white);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.nav_bar {
-  height: 60px;
-  width: 100%;
-  background-color: var(--purpleDark);
 }
 
 .header_text_wrapper {

@@ -1,3 +1,8 @@
+:root {
+  --purpleDark: #2f2e41;
+  --white: #ffffff;
+}
+
 body {
   margin: 0;
   padding: 0;
