@@ -12,6 +12,7 @@ const Header = () => {
           React Native, React, Redux, JavaScript
         </h3>
         <h3 className={styles.header_sub_title}>Independent Contractor</h3>
+        <div className={styles.header_image} />
       </div>
     </div>
   );
