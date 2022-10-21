@@ -1,0 +1,28 @@
+.card {
+  padding: 0.5rem;
+  margin: 1rem 0.5rem;
+  background-color: var(--white);
+  border: 1px solid var(--gray);
+  border-radius: 0.25rem;
+}
+
+.card_title {
+  color: var(--purpleLight);
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.card_text {
+  color: var(--purpleMedium);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.card_job {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.card_period {
+  margin: 0;
+}
