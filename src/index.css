@@ -1,6 +1,9 @@
 :root {
   --purpleDark: #2f2e41;
+  --purpleMedium: #3f3d56;
+  --purpleLight: #6c63ff;
   --white: #ffffff;
+  --gray: #e6e6e6;
 }
 
 body {
