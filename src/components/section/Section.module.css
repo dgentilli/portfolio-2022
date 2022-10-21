@@ -1,0 +1,14 @@
+.section__medium {
+  background-color: var(--purpleLight);
+  color: var(--white);
+}
+
+.section__light {
+  background-color: var(--white);
+  color: var(--purpleDark);
+}
+
+.section_title {
+  text-align: center;
+  font-size: 1.2rem;
+}
