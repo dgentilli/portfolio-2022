@@ -1,4 +1,4 @@
 export const sectionTypes = {
   LIGHT: 'light',
-  MEDIUM: 'medium',
+  DARK: 'dark',
 };

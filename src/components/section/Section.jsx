@@ -7,7 +7,7 @@ const Section = ({ title, sectionType, children }) => {
   const colorScheme = useMemo(() => {
     return sectionType === sectionTypes.LIGHT
       ? styles.section__light
-      : styles.section__medium;
+      : styles.section__dark;
   }, [sectionType]);
 
   return (

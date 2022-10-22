@@ -22,7 +22,7 @@ function App() {
           />
         ))}
       </Section>
-      <Section title='Previous Experience' sectionType={sectionTypes.MEDIUM}>
+      <Section title='Previous Experience' sectionType={sectionTypes.DARK}>
         <ExperienceList />
       </Section>
     </div>

@@ -1,6 +1,7 @@
-.section__medium {
-  background-color: var(--purpleMedium);
-  color: var(--white);
+.section__dark {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  background-color: var(--purpleDark);
+  color: var(--gray);
 }
 
 .section__light {
