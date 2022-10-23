@@ -3,16 +3,20 @@ import Navbar from './components/navbar/Navbar';
 import Section from './components/section/Section';
 import Card from './components/card/Card';
 import ExperienceList from './components/experienceList/ExperienceList';
+import Background from './components/backgroundDetails/Background';
 
 import { cardData } from './data/cardData';
-import { sectionTypes } from './enums';
+import { sectionTypes, sectionTitles } from './enums';
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
       <Header />
-      <Section title='Client Projects' sectionType={sectionTypes.LIGHT}>
+      <Section
+        title={sectionTitles.CLIENT_PROJECTS}
+        sectionType={sectionTypes.LIGHT}
+      >
         {cardData.map((item) => (
           <Card
             cardTitle={item.cardTitle}
@@ -23,8 +27,17 @@ function App() {
           />
         ))}
       </Section>
-      <Section title='Previous Experience' sectionType={sectionTypes.DARK}>
+      <Section
+        title={sectionTitles.PREVIOUS_EXPERIENCE}
+        sectionType={sectionTypes.DARK}
+      >
         <ExperienceList />
+      </Section>
+      <Section
+        title={sectionTitles.BACKGROUND}
+        sectionType={sectionTypes.LIGHT}
+      >
+        <Background />
       </Section>
     </div>
   );
