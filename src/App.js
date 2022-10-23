@@ -19,6 +19,7 @@ function App() {
             job={item.job}
             period={item.period}
             description={item.description}
+            key={item.cardTitle}
           />
         ))}
       </Section>
