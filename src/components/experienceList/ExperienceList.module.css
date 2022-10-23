@@ -1,0 +1,19 @@
+.experience_list_container {
+  padding: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.experience_list_title {
+  margin-top: 0;
+}
+
+.experience_list_item {
+  padding-top: 0.5rem;
+  opacity: 0;
+}
+
+.experience_list_item__isVisible {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
