@@ -5,3 +5,33 @@
 .background_paragraph {
   line-height: 1.7;
 }
+
+.paragraph_icon_life {
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('../../assets/world-small.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paragraph_icon_career {
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('../../assets/resume-small.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paragraph_icon_hobbies {
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('../../assets/photographer-small.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
