@@ -4,6 +4,7 @@ import Section from './components/section/Section';
 import Card from './components/card/Card';
 import ExperienceList from './components/experienceList/ExperienceList';
 import Background from './components/backgroundDetails/Background';
+import Info from './components/info/Info';
 
 import { cardData } from './data/cardData';
 import { sectionTypes, sectionTitles } from './enums';
@@ -38,6 +39,9 @@ function App() {
         sectionType={sectionTypes.LIGHT}
       >
         <Background />
+      </Section>
+      <Section title={sectionTitles.INFO} sectionType={sectionTypes.GRADIENT}>
+        <Info />
       </Section>
     </div>
   );

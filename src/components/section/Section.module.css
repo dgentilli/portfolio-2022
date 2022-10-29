@@ -12,11 +12,7 @@
 .section__gradient {
   color: var(--gray);
   padding: 0.5rem 0.5rem 0.5rem 0;
-  background: linear-gradient(
-    to bottom right,
-    var(--purpleLight),
-    var(--white)
-  );
+  background: linear-gradient(to bottom right, var(--purpleLight), var(--gray));
 }
 
 .section_title {
