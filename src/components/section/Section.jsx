@@ -5,9 +5,9 @@ import { sectionTypes } from '../../enums';
 
 const Section = ({ title, sectionType, children }) => {
   const colorScheme = useMemo(() => {
-    return sectionType === sectionTypes.LIGHT
-      ? styles.section__light
-      : styles.section__dark;
+    if (sectionType === sectionTypes.LIGHT) return styles.section__light;
+    if (sectionType === sectionTypes.DARK) return styles.section__dark;
+    return styles.section__gradient;
   }, [sectionType]);
 
   return (

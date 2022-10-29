@@ -1,0 +1,48 @@
+.info_container {
+  padding: 0 0.5rem;
+}
+.info_icon_container {
+  display: flex;
+}
+
+.info_linkedIn {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('../../assets/iconmonstr-linkedin-5.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.info_gitHub {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('../../assets/iconmonstr-github-5.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info_twitter {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('../../assets/iconmonstr-twitter-5.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info_text {
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    var(--white) 0 5%,
+    var(--gray) 20% 34%,
+    var(--purpleLight) 36% 60%,
+    var(--purpleMedium)
+  );
+  background-clip: text;
+  color: transparent;
+}
