@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
 import Section from './components/section/Section';
@@ -6,14 +7,17 @@ import ExperienceList from './components/experienceList/ExperienceList';
 import Background from './components/backgroundDetails/Background';
 import Info from './components/info/Info';
 import Footer from './footer/Footer';
+import MenuModal from './components/modal/MenuModal';
 
 import { cardData } from './data/cardData';
 import { sectionTypes, sectionTitles } from './enums';
 
 function App() {
+  const [isModalOpen, setIsModalOpen] = useState(true);
   return (
     <div className='App'>
-      <Navbar />
+      {isModalOpen && <MenuModal />}
+      <Navbar openModal={setIsModalOpen} />
       <Header />
       <Section
         title={sectionTitles.CLIENT_PROJECTS}
