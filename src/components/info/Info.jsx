@@ -12,15 +12,18 @@ const Info = () => {
         <a
           className={styles.info_linkedIn}
           href='https://ro.linkedin.com/in/dave-gentilli-97925892'
-        ></a>
-        <a
-          className={styles.info_gitHub}
-          href='https://github.com/dgentilli'
-        ></a>
+        >
+          {' '}
+        </a>
+        <a className={styles.info_gitHub} href='https://github.com/dgentilli'>
+          {' '}
+        </a>
         <a
           className={styles.info_twitter}
           href='https://twitter.com/dave_gentilli'
-        ></a>
+        >
+          {' '}
+        </a>
       </div>
     </div>
   );
