@@ -11,7 +11,7 @@ const Section = ({ title, sectionType, children }) => {
   }, [sectionType]);
 
   return (
-    <section className={colorScheme}>
+    <section id={title} className={colorScheme}>
       <h3 className={styles.section_title}>{title}</h3>
       {children}
     </section>
