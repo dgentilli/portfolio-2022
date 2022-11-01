@@ -13,11 +13,11 @@ import { cardData } from './data/cardData';
 import { sectionTypes, sectionTitles } from './enums';
 
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className='App'>
-      {isModalOpen && <MenuModal />}
-      <Navbar openModal={setIsModalOpen} />
+      {isModalOpen && <MenuModal setIsOpen={setIsModalOpen} />}
+      <Navbar setIsOpen={setIsModalOpen} />
       <Header />
       <Section
         title={sectionTitles.CLIENT_PROJECTS}

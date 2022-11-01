@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './Navbar.module.css';
 
-const Navbar = () => {
+const Navbar = ({ setIsOpen }) => {
   return (
     <div id='navbar' className={styles.nav_bar}>
-      <div className={styles.nav_bar_home}>{'<Home />'}</div>
+      <div onClick={() => setIsOpen(true)} className={styles.nav_bar_home}>
+        {'<Menu />'}
+      </div>
     </div>
   );
 };
