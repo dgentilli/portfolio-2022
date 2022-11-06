@@ -1,5 +1,7 @@
 .background_container {
   padding: 0 0.5rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .background_paragraph {

@@ -2,6 +2,8 @@
   padding: 0 0.5rem;
 }
 .info_icon_container {
+  max-width: 900px;
+  margin: 0 auto;
   display: flex;
 }
 

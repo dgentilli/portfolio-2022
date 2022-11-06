@@ -1,5 +1,8 @@
 .experience_list_container {
   padding: 1rem;
+  margin: 0 auto;
+  max-width: 900px;
+
   font-weight: 300;
   line-height: 1.7;
 }
