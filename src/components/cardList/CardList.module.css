@@ -1,0 +1,8 @@
+.cardList {
+  max-width: 900px;
+  margin: 0 auto;
+
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+}

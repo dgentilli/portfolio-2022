@@ -2,14 +2,12 @@ import React, { useState } from 'react';
 import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
 import Section from './components/section/Section';
-import Card from './components/card/Card';
+import CardList from './components/cardList/CardList';
 import ExperienceList from './components/experienceList/ExperienceList';
 import Background from './components/backgroundDetails/Background';
 import Info from './components/info/Info';
 import Footer from './footer/Footer';
 import MenuModal from './components/modal/MenuModal';
-
-import { cardData } from './data/cardData';
 import { sectionTypes, sectionTitles } from './enums';
 
 function App() {
@@ -23,15 +21,7 @@ function App() {
         title={sectionTitles.CLIENT_PROJECTS}
         sectionType={sectionTypes.LIGHT}
       >
-        {cardData.map((item) => (
-          <Card
-            cardTitle={item.cardTitle}
-            job={item.job}
-            period={item.period}
-            description={item.description}
-            key={item.cardTitle}
-          />
-        ))}
+        <CardList />
       </Section>
       <Section
         title={sectionTitles.PREVIOUS_EXPERIENCE}
