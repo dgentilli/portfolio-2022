@@ -33,3 +33,29 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media (min-width: 768px) {
+  .background_para_wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 4rem;
+  }
+
+  .background_paragraph {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-left: 0.5rem;
+  }
+
+  .background_para_wrapper:nth-child(even) .background_paragraph {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-left: 2rem;
+  }
+
+  .background_para_wrapper:nth-child(even) .icon {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+  }
+}
