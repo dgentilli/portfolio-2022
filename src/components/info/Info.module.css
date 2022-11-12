@@ -5,12 +5,12 @@
   max-width: 900px;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
 }
 
 .info_linkedIn {
   width: 150px;
   height: 150px;
-  margin: 0 auto;
   padding: 0;
   background-image: url('../../assets/iconmonstr-linkedin-5.svg');
   background-repeat: no-repeat;
@@ -19,7 +19,6 @@
 .info_gitHub {
   width: 150px;
   height: 150px;
-  margin: 0 auto;
   padding: 0;
   background-image: url('../../assets/iconmonstr-github-5.svg');
   background-repeat: no-repeat;
@@ -29,7 +28,6 @@
 .info_twitter {
   width: 150px;
   height: 150px;
-  margin: 0 auto;
   padding: 0;
   background-image: url('../../assets/iconmonstr-twitter-5.svg');
   background-repeat: no-repeat;

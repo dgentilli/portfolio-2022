@@ -35,7 +35,7 @@ function App() {
       >
         <Background />
       </Section>
-      <Section title={sectionTitles.INFO} sectionType={sectionTypes.GRADIENT}>
+      <Section title={sectionTitles.INFO} sectionType={sectionTypes.DARK}>
         <Info />
       </Section>
       <Footer />
