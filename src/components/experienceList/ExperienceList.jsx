@@ -24,7 +24,7 @@ const ExperienceList = () => {
   }, []);
   return (
     <div id='container' className={styles.experience_list_container}>
-      <p className={styles.experience_list_title}>{title}</p>
+      <p className={[styles.experience_list_item]}>{title}</p>
       <p className={[styles.experience_list_item]}>{coreTechSkills}</p>
       <p className={[styles.experience_list_item]}>{softSkills}</p>
       <p className={[styles.experience_list_item]}>{overview}</p>

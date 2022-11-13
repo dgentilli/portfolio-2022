@@ -7,13 +7,13 @@
   line-height: 1.7;
 }
 
-.experience_list_title {
-  margin-top: 0;
-}
-
 .experience_list_item {
   padding-top: 0.5rem;
   opacity: 0;
+}
+
+.experience_list_item:first-child {
+  margin-top: 0;
 }
 
 .experience_list_item__isVisible {
