@@ -20,7 +20,7 @@ const Info = () => {
         </a>
         <a
           className={styles.info_twitter}
-          href='https://twitter.com/dave_gentilli'
+          href='https://www.flickr.com/photos/194035379@N08/'
         >
           {' '}
         </a>
