@@ -5,10 +5,10 @@ export const experienceData = {
     'Soft Skills: Critical thinking, teamwork, planning and organizing, managing client relationships',
   paragraphs: {
     overview:
-      'Prior to becoming a developer, I cultivated a broad range of transferrable skills such as critical thinking, structured analysis, teamwork, planning and organizing, and working as part of multi-cultural teams. I cultivated these skills over more than 15 years during which I served as a U.S. Army officer, worked as an analyst, and worked as a civilian contractor with the U.S. Department of Defense and Department of the Army.',
+      'Prior to becoming a developer, I cultivated a broad range of transferrable skills such as critical thinking, structured analysis, teamwork, planning and organizing, and working within multi-cultural teams. I cultivated these skills over nearly 20 years during which I served as a U.S. Army officer, worked as an analyst, and worked as a civilian contractor with the U.S. Department of Defense and Department of the Army.',
     military:
-      'I planned and organized a training deployment of all soldiers, weapons and sensitive items, and equipment totaling over $25 Million as the second-in-command of an infantry company. I also planned and organized a change of command inventory for all of the above equipment. Oversaw maintenance operations and planned the logistics and resources for training exercises. ',
+      'I planned and organized a training deployment of over 100 soldiers and $25 Million of equipment as the second-in-command of an infantry company. In this role, I allocated resources and planned the logistics for training exercises on a regular basis. As a platoon leader, I led 35 soldiers, bringing together a highly diverse group to work as a cohesive team. ',
     contractor:
-      'As a contractor I excelled at forging relationships with client organizations in every role I held. This success rested upon my communication skills, most importantly listening skills, so I could understand each client organization’s needs and tailor my work accordingly. ',
+      'As a contractor I excelled at forging relationships with client organizations in every role I held. This success rested upon my communication skills, especially listening skills, so I could understand each client organization’s needs and tailor my work accordingly. ',
   },
 };
