@@ -1,6 +1,7 @@
 export const experienceData = {
   title: 'Professional Developer Since 2020',
-  coreTechSkills: 'Core Tech Skills: React Native, React, JavaScript',
+  coreTechSkills:
+    'Core Tech Skills: React Native, React, JavaScript, TypeScript, Redux',
   softSkills:
     'Soft Skills: Critical thinking, teamwork, planning and organizing, managing client relationships',
   paragraphs: {

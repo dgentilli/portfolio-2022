@@ -4,7 +4,14 @@ export const cardData = [
     job: 'React Native',
     period: '04/2022 - Present',
     description:
-      'Played a key role as a team member building an MVP for a React Native app. Worked on almost every aspect of the mobile app, creating layouts, managing state with Redux Tookit, and implementing React Navigation. Gained experience releasing test builds for Android and iOS. Given the small team, did QA and prioritized tasks in the absence of a PM and QA team',
+      'Maintained an app in production with over 10K downloads on Android and iOS and a 4.8 star average rating in each store. Played a key role as a team member on two React Native MVPs. Worked on almost every aspect of these projects, creating layouts, managing state with Redux Tookit, and implementing React Navigation. Gained experience releasing test builds for Android and iOS. Given the small team on one project, prioritized tasks and provided guidance to an intern in the absence of a tech lead. Used TypeScript and wrote unit tests with Jest for all projects.',
+  },
+  {
+    cardTitle: 'Mobius Innovations',
+    job: 'React & React Native',
+    period: '04/2023 - 09/2023',
+    description:
+      'Built an admin dashboard with React and MUI for a US-based start-up in the health and wellness industry. Worked independently, planning and organizing the project from the very beginning with minimal guidance. Set up the state management with Redux and implemented an API service for network requests. Completed feature work on the React Native app in order to help the team meet deadlines. Leaned on my experience using the React Native CLI to solve Android specific build issues that would have delayed the project.',
   },
   {
     cardTitle: 'Insurance Business Applications',
