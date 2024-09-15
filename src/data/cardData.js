@@ -1,8 +1,15 @@
 export const cardData = [
   {
+    cardTitle: 'Rakuten Kobo',
+    job: 'React Native',
+    period: '08/2024 - Present',
+    description:
+      'Currently implementing an improved reader experience on an E-reading app with over 1 Million downloads. Tech stack includes React Native, React Navigation, and Redux. I am also gaining experience in managing third party dependencies and integrating native modules.',
+  },
+  {
     cardTitle: 'Salt & Pepper Solutions',
     job: 'React Native',
-    period: '04/2022 - Present',
+    period: '04/2022 - 06/2024',
     description:
       'Maintained an app in production with over 10K downloads on Android and iOS and a 4.8 star average rating in each store. Played a key role as a team member on two React Native MVPs. Worked on almost every aspect of these projects, creating layouts, managing state with Redux Tookit, and implementing React Navigation. Gained experience releasing test builds for Android and iOS. Given the small team on one project, prioritized tasks and provided guidance to an intern in the absence of a tech lead. Used TypeScript and wrote unit tests with Jest for all projects.',
   },
