@@ -4,7 +4,7 @@ export const cardData = [
     job: 'React Native',
     period: '08/2024 - Present',
     description:
-      'Currently implementing an improved reader experience on an E-reading app with over 1 Million downloads. Tech stack includes React Native, React Navigation, and Redux. I am also gaining experience in managing third party dependencies and integrating native modules.',
+      'Currently improving accessibility of a variety of React Native components in order to comply with the European Accessibility Act (EAA) on an E-reading app with over 1 Million downloads. Tech stack includes React Native, React Navigation, and Redux. I am gaining experience in managing dependencies and packages from a monorepo.',
   },
   {
     cardTitle: 'Salt & Pepper Solutions',
